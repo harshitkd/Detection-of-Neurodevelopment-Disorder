@@ -41,38 +41,33 @@ Autism Spectrum
 
 ### Child Dataset:
 
-| Techniques  | Accuracy | Cross Validation | AUC score | F-beta score |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| Logistic Regression  | 1 | 0.98783 | 0.99935 | 0.94594 |
-| Decision Tree | 1 | 1 | 1 | 1 |
-| K-Nearest Neighbor | 0.96 | 0.875 | 0.96188 | 0.94594 |
-| Naive Bayes | 0.86 | 0.7986 | 0.88082 | 0.85526 |
-
-Accuracy in Sequential Model (CNN) is 95.99 %.
+| Techniques  | Accuracy | Precision | Sensitivity | F-beta score | F1 score | 
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Logistic Regression  | 1 | 1 | 1 | 1 | 1 |
+| Decision Tree | 1 | 1 | 1 | 1 | 1 |
+| K-Nearest Neighbor | 0.96 | 0.933 | 1 | 0.94594 | 0.966551 |
+| Naive Bayes | 0.86 | 0.838 | 0.928 | 0.85526 | 0.8813 |
+| Sequential Model (CNN) | 0.959 | 0.964 | 0.964 | 0.964 | 0.964 |
 
 
 ### Adult Dataset:
 
-| Techniques  | Accuracy | Cross Validation | AUC score | F-beta score |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| Logistic Regression  | 0.9836 | 0.99344 | 1.0 | 0.96412 |
-| Decision Tree | 1 | 1 | 1 | 1 |
-| K-Nearest Neighbor | 0.95901 | 0.94745 | 0.99307 | 0.93607 |
-| Naive Bayes | 0.89344 | 0.885 | 0.9445 | 0.837 |
-
-
-Accuracy in Sequential Model (CNN) is 97.54 %
-
+| Techniques  | Accuracy | Precision | Sensitivity | F-beta score | F1 score | 
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Logistic Regression  | 0.9836 | 0.956 | 1 | 0.9641 | 0.97727 |
+| Decision Tree | 1 | 1 | 1 | 1 | 1 |
+| K-Nearest Neighbor | 0.959 | 0.9318 | 0.9534 | 0.9360 | 0.94252 |
+| Naive Bayes | 0.8934 | 0.8260 | 0.8837 | 0.837 | 0.8539 |
+| Sequential Model (CNN) | 0.97540 | 0.95454 | 0.9767 | 0.9589 | 0.9655 |
 
 
 ### Adolescent Dataset:
 
-| Techniques  | Accuracy | Cross Validation | AUC score | F-beta score |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| Logistic Regression  | 0.9 | 0.9255 | 0.98412 | 0.92307 |
-| Decision Tree | 0.9 | 1 | 1 | 1 |
-| K-Nearest Neighbor | 0.75 | 0.80555 | 0.89265 | 0.764705 |
-| Naive Bayes | 0.75 | 0.7222 | 0.77777 | 0.764705 |
 
-
-Accuracy in Sequential Model (CNN) is 75 %
+| Techniques  | Accuracy | Precision | Sensitivity | F-beta score | F1 score | 
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Logistic Regression  | 0.9 | 0.92307 | 0.92307 | 0.92307 | 0.92307 |
+| Decision Tree | 1 | 1 | 1 | 1 | 1 |
+| K-Nearest Neighbor | 0.75 | 0.7222 | 1 | 0.7647 | 0.8387 |
+| Naive Bayes | 0.75 | 0.7222 | 1 | 0.76470 | 0.8387 |
+| Sequential Model (CNN) | 0.699 | 0.8181 | 0.6923 | 0.78947 | 0.75001 |
