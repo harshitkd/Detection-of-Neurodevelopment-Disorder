@@ -1,21 +1,5 @@
 # Detection-of-Neuroatypical-Disorder
 
-Links
-
-Autism Spectrum
-
-1) https://www.irjet.net/archives/V8/i8/IRJET-V8I8174.pdf
-2) https://github.com/saadhaxxan/Autism-spectrum-disorder-Detection-using-Deep-Learning
-3) https://www.researchgate.net/publication/331315353_A_Machine_Learning_Approach_to_Predict_Autism_Spectrum_Disorder
-4) https://link.springer.com/article/10.1007/s40489-019-00158-x
-5) https://github.com/martinfrasch/ASD_project
-6) https://www.sciencedirect.com/science/article/pii/S1877050920308656
-7) https://github.com/kbasu2016/Autism-Detection-in-Adults/blob/master/capstone.ipynb
-8) https://github.com/deeptiGarg/Classification-on-Autism-Dataset
-9) Dataset: https://archive.ics.uci.edu/ml/datasets.php
-10) Alternative Dataset: https://www.kaggle.com/faizunnabi/autism-screening
-
-
 
 ## Feature Exploration
 
@@ -26,8 +10,15 @@ Autism Spectrum
 | Patients not diagnoised with disorder | 41 | 515 | 151 |
 | Percentage of patients diagnoised with disorder | 60.58 % | 26.85 % | 48.29 % |
 
+## Data Preprocessing
 
-## ASD class dataset visualization
+* Handle the missing values
+* Split the data into features and target label
+* Normalize the numerical variables using MinMax Scaler
+* One-hot encoding for categorical variables
+* Encoded the asd_classes column
+
+## Encoded ASD class dataset visualization
 
 ### Child dataset: 
 ![child asd classes](https://user-images.githubusercontent.com/56076028/167248574-f0bf8c93-2770-4ad7-9ccf-1afae6e74345.jpg)
@@ -36,6 +27,13 @@ Autism Spectrum
 ### Adolescent Dataset:
 ![adolescent asd classes](https://user-images.githubusercontent.com/56076028/167248603-fd8eb39f-d8ae-4ad4-aa9b-2cdf5c2780e1.jpg)
 
+## Machine Learning Techniques
+
+* Logistic Regression
+* Decision Tree
+* K-Nearest Neighbor
+* Naive Bayes
+* Sequential Model (CNN)
 
 ## Accuracy, AUC score, cross validation and F-beta score comparison
 
@@ -71,3 +69,25 @@ Autism Spectrum
 | K-Nearest Neighbor | 0.75 | 0.7222 | 1 | 0.7647 | 0.8387 |
 | Naive Bayes | 0.75 | 0.7222 | 1 | 0.76470 | 0.8387 |
 | Sequential Model (CNN) | 0.699 | 0.8181 | 0.6923 | 0.78947 | 0.75001 |
+
+
+## Confusion Matrix and Learning curves
+
+### Child Dataset:
+
+![Screenshot 2022-05-09 214718](https://user-images.githubusercontent.com/56076028/167481393-38c5f154-7226-426d-add8-128d20e85340.png)
+![Screenshot 2022-05-09 214810](https://user-images.githubusercontent.com/56076028/167481383-d45d95a9-49a9-4ce0-9c50-8dba06cf099d.png)
+
+
+### Adult Dataset:
+
+![Screenshot 2022-05-09 215255](https://user-images.githubusercontent.com/56076028/167481470-546330f0-0413-40c6-8d59-f1779a5e50fb.png)
+![Screenshot 2022-05-09 215349](https://user-images.githubusercontent.com/56076028/167481547-d3705884-7920-42ca-b45f-92ab8c6ee420.png)
+
+### Adolescent Dataset:
+
+![Screenshot 2022-05-09 215602](https://user-images.githubusercontent.com/56076028/167481589-15b0b106-0a28-43f3-8178-b40cb975bddc.png)
+![Screenshot 2022-05-09 215528](https://user-images.githubusercontent.com/56076028/167481596-0f130ca3-0703-41cf-9193-f71fb6a1e2b5.png)
+
+License
+The detection project is free and open-source software licensed under the Apache-2.0 license.
