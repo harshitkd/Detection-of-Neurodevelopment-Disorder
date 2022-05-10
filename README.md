@@ -41,7 +41,7 @@
 
 | Techniques  | Accuracy | Precision | Sensitivity | F-beta score | F1 score | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Logistic Regression  | 1 | 1 | 1 | 1 | 1 |
+| Logistic Regression  | 0.98783 | 0.966 | 0.95 | 0.95 | 0.95 |
 | Decision Tree | 1 | 1 | 1 | 1 | 1 |
 | K-Nearest Neighbor | 0.96 | 0.933 | 1 | 0.94594 | 0.966551 |
 | Naive Bayes | 0.86 | 0.838 | 0.928 | 0.85526 | 0.8813 |
